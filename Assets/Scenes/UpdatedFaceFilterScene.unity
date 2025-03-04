@@ -1253,7 +1253,7 @@ PrefabInstance:
     - target: {fileID: 6206005521583193442, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 90.084015
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 6206005521583193442, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
         type: 3}
@@ -1303,7 +1303,7 @@ PrefabInstance:
     - target: {fileID: 6206005521853950638, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 810.42004
+      value: 810.5
       objectReference: {fileID: 0}
     - target: {fileID: 6206005521853950638, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
         type: 3}
@@ -1333,7 +1333,7 @@ PrefabInstance:
     - target: {fileID: 6206005522389524158, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 450.25204
+      value: 450.5
       objectReference: {fileID: 0}
     - target: {fileID: 6206005522389524158, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
         type: 3}
@@ -1698,7 +1698,7 @@ PrefabInstance:
     - target: {fileID: 8431723443505830666, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -50.000244
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 8431723443505830666, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
         type: 3}
@@ -1734,6 +1734,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9035868208008222607, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -112
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4079002437865295858, guid: ccc0c063a6b6cb143b63b64a01a0a7b7, type: 3}
@@ -2233,7 +2238,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colorPickerButtonsContainer: {fileID: 602674580}
   glassesButtonsContainer: {fileID: 1167975853}
+  canvasButtons: {fileID: 337470198}
   camera: {fileID: 1125894419}
+  mainCamera: {fileID: 1125894421}
 --- !u!4 &937585059
 Transform:
   m_ObjectHideFlags: 0
@@ -3719,7 +3726,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 937585058}
         m_TargetAssemblyTypeName: UIButtonsBehaviour, Assembly-CSharp
-        m_MethodName: ChangeCameraFacingDirection
+        m_MethodName: TakeScreenshot
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
